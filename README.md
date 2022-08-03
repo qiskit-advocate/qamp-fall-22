@@ -49,7 +49,7 @@ During mentoring period (> 5 hours per week)
 A: QAMP is an exclusive offering for Qiskit advocates. You need to become a Qiskit advocates to apply for the program. Read [here](https://github.com/qiskit-advocate/application-guide) for more information about how to become a Qiskit advocate.
 
 ### Q: Can mentees propose projects?
-A: Yes! Mentees can propose project ideas by submitting them as a github issue [here](https://github.com/qiskit-community/qiskit-advocate-mentorship-program/issues) during the application period. If a mentor is interested in your project, you will be matched to work on the project.
+A: Yes! Mentees can propose project ideas by submitting them as a github issue [here](https://github.com/qiskit-advocate/qamp-fall-22/issues) during the application period. If a mentor is interested in your project, you will be matched to work on the project.
 
 ### Q: I don't have much programming experience, can I still apply?
 A: Yes! The mentorship program is meant for developing your skills. Some projects require only minimal programming experience. You will be able to learn and improve your programming skills with guidance of your mentor.
