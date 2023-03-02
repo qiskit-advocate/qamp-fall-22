@@ -24,7 +24,7 @@ Link to the application form is shared in the `#qiskit-advocates` channel on Qis
 - Kick-off: Sep 8
 - Checkpoint 1: Oct 6
 - Checkpoint 2: Nov 3
-- Final showcase: Dec 8
+- Final showcase: Dec 8 (see the recording from the QAMP Fall 22 Final Showcase [here](Final%20Showcase.md))
 
 ## Commitment from mentees
 
