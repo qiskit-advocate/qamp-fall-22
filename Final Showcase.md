@@ -6,7 +6,7 @@ At the end of the 3-month teams are rerquired to present or demo their completed
 <br/>
 
 ## Submitted Recordings
-- #6 Quantum fMRI analysis ([link](xhttps://ibm.box.com/s/z50ugx19ke18bp1vxonbqrn72j9mu70w))
+- #6 Quantum fMRI analysis ([link](https://ibm.box.com/s/z50ugx19ke18bp1vxonbqrn72j9mu70w))
 - #10 Exploring expressibility of parametrized quantum circuits on IBMQ hardware ([link](https://ibm.box.com/s/5fbg5ano2b4glmenni25hrbt45s8z66i))
 - #13 Machine Learning for Classifying Exotic Quantum States of Matter ([link](https://ibm.ent.box.com/s/e5ieou8d66dluox6hwo7k5yv0nnssc9m))
 - #16 Adding a "no-inline" option to Qiskit transpiler ([link](https://ibm.box.com/s/9qsr452u7y07j6do2miudwd6mrklzx3t))
