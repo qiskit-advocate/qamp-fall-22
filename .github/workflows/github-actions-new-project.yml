@@ -14,7 +14,7 @@ jobs:
       - uses: actions/add-to-project@v0.4.1
         with:
           project-url: https://github.com/orgs/qiskit-advocate/projects/4
-          github-token: ${{ secrets.GEMMA_PAT }}
+          github-token: ${{ secrets.GEMMA_CLASSIC_PAT }}
   add_labels:
     runs-on: ubuntu-latest
     steps:
