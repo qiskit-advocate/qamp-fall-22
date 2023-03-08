@@ -1,19 +1,21 @@
 name: GitHub Actions QAMP Issues
+
 run-name: ${{ github.actor }} is using GitHub Actions 🚀
+
 on:
   issues:
     types: [opened]
+
 jobs:
   assign:
-    name: Assign issues to project
+    name: Assign QAMP projects to GitHub project
     runs-on: ubuntu-latest
     steps:
-      - name: Create project card
-        uses: peter-evans/create-or-update-project-card@v2
+      name: Add To GitHub projects
+      uses: actions/add-to-project@v0.4.1
         with:
-          token: ${{ secrets.GEMMA_PAT }}
-          project-location: qiskit-advocate
-          project-name: QAMP Spring 23
+          project-url: https://github.com/orgs/qiskit-advocate/projects/4
+          github-token: ${{ secrets.GEMMA_PAT }}
           column-name: Mentor Proposed Projects
   add_labels:
     runs-on: ubuntu-latest
