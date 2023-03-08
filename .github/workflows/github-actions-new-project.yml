@@ -1,0 +1,26 @@
+name: GitHub Actions QAMP Issues
+run-name: ${{ github.actor }} is using GitHub Actions 🚀
+on:
+  issues:
+    types: [opened]
+jobs:
+  assign:
+    name: Assign issues to project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create project card
+        uses: peter-evans/create-or-update-project-card@v2
+        with:
+          token: ${{ secrets.GEMMA_PAT }}
+          project-location: qiakit-advocate
+          project-name: QAMP Spring 23
+          column-name: Mentor Proposed Projects
+  add_labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: |
+            from: mentor
+            mentee needed
