@@ -15,7 +15,6 @@ jobs:
         with:
           project-url: https://github.com/orgs/qiskit-advocate/projects/4
           github-token: ${{ secrets.GEMMA_PAT }}
-          column-name: Mentor Proposed Projects
   add_labels:
     runs-on: ubuntu-latest
     steps:
