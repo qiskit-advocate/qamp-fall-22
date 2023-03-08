@@ -12,14 +12,14 @@ jobs:
         uses: peter-evans/create-or-update-project-card@v2
         with:
           token: ${{ secrets.GEMMA_PAT }}
-          project-location: qiakit-advocate
+          project-location: qiskit-advocate
           project-name: QAMP Spring 23
           column-name: Mentor Proposed Projects
   add_labels:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions-ecosystem/action-add-labels@v1
+      - uses: actions-ecosystem/action-add-labels@v2
         with:
           labels: |
             from: mentor
